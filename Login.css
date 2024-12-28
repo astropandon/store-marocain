@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(202, 202, 202);
+}
+
+form {
+    padding: 50px 30px 20px;
+    width: 400px; 
+    background-color: rgba(78, 88, 101, 0.8); 
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.input-box {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 45px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    background-color: rgba(249, 249, 249, 0.9);
+    outline: none;
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: #555;
+}
+
+.input-box input:hover{
+    border: 1px solid #d1902f;
+    box-shadow: 3px 3px 10px #d1902f;
+    transition: .5s;
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #555;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+}
+
+.forgot label a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.forgot label a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    right: 34px;
+    top: 247px;
+    background-color: #d1902f;
+    transition: all 0.3s ease;
+}
+.forgot label a:hover::after{
+    width: 32%;
+}
+.btn {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #3c3c3c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d1902f;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.sign {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+}
+.sign a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    right: 80px;
+    bottom: 18px;
+    background-color: #d1902f;
+    transition: all 0.3s ease;
+}
+
+.sign a:hover::after {
+    width: 17%;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    form h1 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+    }
+
+    .forgot label a {
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .sign {
+        font-size: 14px;
+    }
+
+    .sign a {
+        font-size: 14px;
+    }
+    .forgot label a::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        right: 21px;
+        top: 216px;
+        background-color: #d1902f;
+        transition: all 0.3s ease;
+    }
+    .forgot label a:hover::after{
+        width: 22%;
+    }
+    .sign a::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        right: 148px;
+        bottom: 25px;
+        background-color: #d1902f;
+        transition: all 0.3s ease;
+    }
+    
+    .sign a:hover::after {
+        width: 12%;
+    }
+}
+
+@media (max-width: 400px) {
+    form {
+        padding: 20px 15px;
+    }
+
+    form h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+
+}

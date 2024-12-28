@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+    flex-wrap: wrap;
+}
+.logo1{
+    background-image: url(maroc/tajin/f3.jpg);
+    width: 200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo2{
+    background-image: url(maroc/balgha/logo.jpg);
+    width: 200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo3{
+    background-image: url(maroc/zlij/14.webp);
+    width: 200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo4{
+    background-image: url(maroc/zrabi/3.jpg);
+    width: 200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo5{
+    background-image: url(maroc/quoftan/q6.jpg);
+    width: 200px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.menu i{
+    font-size: 30px;
+    display: none;
+}
+
+.Trade, .Super{
+    color: #c18b63;
+}
+
+
+#hero {
+    background-color: #ddd;
+    width: 100%;
+    height: 60vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-align: center;
+}
+#hero h4 {
+    padding-bottom: 15px;
+}
+#hero h1 {
+    color: #c18b63;
+    font-size: 48px;
+}
+#hero a {
+    background-image: url(button.png);
+    background-color: transparent;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: #d4a373;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px #eeeeee;
+    border: 1px solid #d4a373;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px #ddd;
+}
+#feature .fe-box img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #c18b63;
+    background-color: #ddd;
+}
+#feature .fe-box:nth-child(2) h6 {
+    background-color: #ddd;
+}
+#feature .fe-box:nth-child(3) h6 {
+    background-color: #ddd;
+}
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #ddd;
+}
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #ddd;
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #ddd;
+}
+.box-1 img{
+    width: 199px;
+    border-radius: 8px;
+}
+.box-2 img{
+    width: 200px;
+    border-radius: 8px;   
+}
+.box-1{
+    text-align: center;
+    border: 1px #c18b63 solid;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px #ddd;
+    margin: 20px;
+}
+h4{
+    padding: 8px;
+}
+.box-2{
+    text-align: center;
+    border: 1px #c18b63 solid;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px #ddd;
+    margin: 20px;
+}
+.box-1:hover{
+    box-shadow: 3px 3px 4px #ddd;
+    transition: 0.5s;
+    
+}
+.box-2:hover{
+    box-shadow: 3px 3px 4px #ddd;
+    transition: 0.5s; 
+}
+.teams{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prod h2,p{
+    text-align: center;
+    color: #d4a373;
+    
+}
+.shop{
+    position: relative;
+    margin-bottom: 30px;
+    justify-content: center;
+    right: 25px;
+    font-size: 1.1em;
+    color:#ffa52e;
+    margin-left: 50px;
+}
+.shop:hover{
+    transition: 0.3s;
+    color:#bd742b;
+}
+
+.box-1 h3,h4 , .box-2 h3,h4{
+    color:#e2a85b;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color:#ffa52e;
+    margin: 0 0 10px 0;
+}
+footer .follow {
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #d4a373;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #d4a373;
+    border-radius: 6px;
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer a:hover {
+    color: #d4a373;
+}
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+.section-p1 {
+    padding: 40px 80px;
+}
+#ftr{
+    background-color: #333;
+}
+.container1{
+    overflow: hidden;
+}
+#page-header {
+    
+    width: 120%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    margin: 0 0 10px 0;
+    background-color: #ddd;
+    height: 300px;
+}
+#page-header h2,
+#page-header p {
+    color: #d4a373;
+    position: relative;
+    right: 400px;
+    font-size: 30px;
+}
+#page-header img{
+    position: absolute;
+    right: 300px;
+    width: 200px;
+    height: 298px;
+}
+#pagination {
+    text-align: center;
+}
+legend{
+    text-align: center;
+    font-size: 40px;
+    color: #d4a373;
+    
+}
+fieldset{
+    margin:0 10px 10px 0;
+}
+
+.head #closeHeader{
+    display: none;
+}
+@media (max-width: 779px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #hero {
+        width: 100%;
+        text-align: center;
+    }
+    .teams .box-1, .box-2 {
+        margin: 20px;
+        height: auto;
+    }
+    a {
+        font-size: 16px;
+    }
+    #feature {
+        flex-direction: column;
+        align-items: center;
+    }
+    #feature .fe-box {
+        width: 90%;
+    }
+    .menu i {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        padding: 6px;
+    }
+    .menu i:hover {
+        background-color: #d4a373;
+        width: 40px;
+        border-radius: 100%;
+    }
+    .pp {
+        z-index: 1;
+        display: none;
+    }
+    .logo1, .logo2, .logo3, .logo4, .logo5 {
+        display: flex;
+        margin: auto;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .col {
+        margin-bottom: 20px;
+    }
+    footer .install .row img {
+        border: none;
+    }
+}
+
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #hero {
+        width: 100%;
+        text-align: center;
+    }
+    .teams .box-1, .box-2 {
+        margin: 20px;
+        height: auto;
+    }
+    a {
+        font-size: 16px;
+    }
+    #feature {
+        flex-direction: column;
+        align-items: center;
+    }
+    #feature .fe-box {
+        width: 90%;
+    }
+    .menu i {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        padding: 6px;
+    }
+    .menu i:hover {
+        background-color: #ddd;
+        width: 40px;
+        border-radius: 100%;
+    }
+    .pp {
+        z-index: 1;
+        display: none;
+    }
+    .logo2 {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        left: 100px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .col {
+        margin-bottom: 20px;
+    }
+    footer .install .row img {
+        border: none;
+    }
+}
+.pp{
+    z-index: 1;
+    text-align: center;
+}
+.box-2 img{
+    max-height: auto;
+}
+
+#page-header h2,p{
+    position: relative;
+    left: 30px;
+}
+footer .install .row img {
+    border: none;
+}
+footer h4{
+    color: #ffbd66;
+}
